@@ -1,0 +1,14 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Variable files containing secrets
+terraform.tfvars
+*.auto.tfvars
+
+# Terraform plans
+*.tfplan
+
+# macOS
+.DS_Store
