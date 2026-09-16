@@ -25,7 +25,7 @@ nc -vz -w 5 "$RDSHOST" 5432
 結果：
 
 ```text
-Connected to RDS:5432
+TCP/5432への接続成功を確認
 ```
 
 正常に接続できることを確認した。
