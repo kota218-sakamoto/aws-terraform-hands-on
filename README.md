@@ -134,6 +134,8 @@ terraform destroy
 │   ├── build-procedure.md
 │   └── test-results.md
 └── evidence/
+    ├── manual-web-rds-integration.png
+    ├── terraform-web-rds-integration.png
     ├── terraform-output.txt
     └── terraform-state-list.txt
 ```
