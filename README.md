@@ -6,18 +6,7 @@ AWS上にWeb/DB構成を手動で構築し、動作確認後にTerraformでIaC�
 
 ## 構成
 
-```mermaid
-flowchart TD
-    Internet --> IGW[Internet Gateway]
-    IGW --> PublicSubnet[Public Subnet<br>10.0.1.0/24]
-
-    PublicSubnet --> EC2[EC2<br>Amazon Linux 2023<br>Apache / PHP]
-
-    EC2 -->|TCP 5432| RDS[(RDS PostgreSQL)]
-
-    RDS --- Private1[Private Subnet 1<br>10.0.11.0/24<br>ap-northeast-1a]
-    RDS --- Private2[Private Subnet 2<br>10.0.12.0/24<br>ap-northeast-1c]
-```
+![AWS構成図](docs/aws-architecture.png)
 
 ## 使用技術
 
